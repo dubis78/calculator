@@ -1,0 +1,62 @@
+:root {
+    --darkpurple: #3a2556;
+    --white:white;
+    
+  background-color: rgb(240, 243, 247);
+  }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  box-shadow: 5px 10px 18px #000;
+}
+
+.baseboard {
+  border-radius: 15px;
+  display: grid;
+  background-color: black;
+  height: 350px;
+  margin: 10% auto;
+  width: 200px;
+}
+
+button {
+  background-color: var(--darkpurple);
+  border-color: var(--darkpurple);
+  color: var(--white);
+}
+
+button:focus {
+  outline: none;
+}
+
+.output {
+  grid-column-start: span 4;
+  color: var(--white);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#answer {
+  margin-left: 12px;
+  font-size: 2rem;
+  width: 100%;
+  display: block;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.clear {
+  grid-column-start: span 4;
+}
+
+.arithmetic {
+  font-size: 2vh;
+  border-radius:15px 0px;
+}
+

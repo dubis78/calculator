@@ -1,0 +1,67 @@
+export const buttonsData={
+    btnsData:[
+        {
+            name:'minus',
+            symbol:'-',                                   
+        },
+        {
+            name:'plus',
+            symbol:'+',                                   
+        },  
+        {
+            name:'multiplication',
+            symbol:'*',                                   
+        },
+        {
+            name:'division',
+            symbol:'/',                                   
+        }, 
+        {
+            name:'decimal',
+            symbol:'.',                                   
+        },
+        {
+            name:'zero',
+            symbol:'0',                                   
+        },  
+        {
+            name:'one',
+            symbol:'1',                                   
+        },  
+        {
+            name:'two',
+            symbol:'2',                                   
+        },
+        {
+            name:'three',
+            symbol:'3',                                   
+        },
+        {
+            name:'four',
+            symbol:'4',                                   
+        },  
+        {
+            name:'five',
+            symbol:'5',                                   
+        },  
+        {
+            name:'six',
+            symbol:'6',                                   
+        },
+        {
+            name:'seven',
+            symbol:'7',                                   
+        },
+        {
+            name:'eight',
+            symbol:'8',                                   
+        },  
+        {
+            name:'nine',
+            symbol:'9',                                   
+        },      
+    ]
+}
+export default buttonsData;
+
+//<button id="decimal" onClick={() => this.props.handleClick(".")}>.</button>

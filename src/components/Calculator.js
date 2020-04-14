@@ -40,9 +40,7 @@ class Calculator extends React.Component {
         };
       } else {
         return {
-          output: isNaN(prevState.output.toString().slice(-1))
-            ? prevState.output
-            : eval(prevState.output)
+          output: "NaN"
         };
       }
     });
